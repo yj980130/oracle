@@ -70,15 +70,7 @@ SELECT
     job_id
     ,avg(salary)
   
-FROM employees
-GROUP BY job_id
-HAVING Avg(salary)>=10000
-ORDER BY AVG(salary) DESC;
-
---[558페이지 문제 1)
-SELECT 
-    d.department_name
-    ,count( e.employee_id )
+FR
    
     
 FROM employees e JOIN departments d ON e.department_id = d.department_id
