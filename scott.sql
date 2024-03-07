@@ -190,7 +190,7 @@ values(seq_board.nextval,'영통부근에 좋은내과좀 알려주십시요. 지금 다니는 연세내
 
 insert into comm_board(COMM_BOARD_NUM,COMM_CONTENT,COMM_TITLE,COMM_CTGR_NUM,COMM_UPLOAD_DATE,MEMBER_NUM)
 
-values(seq_board.nextval,'너무 목이 간질거리며 심하게 기침이 나옵니다. 병원 안내좀 해주시면 감사합니다.
+values(seq_board.nextval,'너무 목이 간질거리며 심하게 기침이 나옵니다'. '병원 안내좀 해주시면 감사합니다.
 
  ','목이아파요',4,to_date('23-01-21','yy-mm-dd'),8);
 
@@ -201,27 +201,98 @@ values(seq_board.nextval,'너무 목이 간질거리며 심하게 기침이 나옵니다. 병원 안내
 
 insert into comm_board(COMM_BOARD_NUM,COMM_CONTENT,COMM_TITLE,COMM_CTGR_NUM,COMM_UPLOAD_DATE,MEMBER_NUM)
 
-values(seq_board.nextval,'영통구 옥탑방
+values(seq_board.nextval,'영통구 쪽에 옥탑방을 좀 구하고 싶은데요, 매물이 잘 없네요ㅠ 앱 말고 방 찾아볼 수 있는 방법좀 있을까요?
 
- ','영통구 쪽에 옥탑방을 좀 구하고 싶은데요, 매물이 잘 없네요ㅠ 앱 말고 방 찾아볼 수 있는 방법좀 있을까요?
-',4,to_date('23126-11','yy-mm-dd'),5);
-
+ ','영통구 옥탑방',4,to_date('23-12-11','yy-mm-dd'),5);
 
 
 
 
 
 
+insert into comm_board(COMM_BOARD_NUM,COMM_CONTENT,COMM_TITLE,COMM_CTGR_NUM,COMM_UPLOAD_DATE,MEMBER_NUM)
+
+values(seq_board.nextval,'어른 중간 정강이까지 오는 크기의 갈색 포메라니안 입니다 보신 분은 댓글 달아주세요 ㅜㅜ',  '저희 집 백돌이를 읽어 버렸어요 ㅜㅡㅜ
+',5,to_date('23-02-12','yy-mm-dd'),9);
+
+
+
+
+
+insert into comm_board(COMM_BOARD_NUM,COMM_CONTENT,COMM_TITLE,COMM_CTGR_NUM,COMM_UPLOAD_DATE,MEMBER_NUM)
+
+values(seq_board.nextval,'오늘 오후 5시에 망포역에서 국민은행 체크카드 분실했는데 매장에 들어오 분실물이 없다고 하네요 혹시
+보신 분 계시면 댓글로 좀 알려주세요 ㅜㅜㅜ','오늘 오후 5시에 망포역 스타벅스에서 카드 주우신분?',5,to_date('23-06-01','yy-mm-dd'),1);
 
 
 
 
 
 
+insert into comm_board(COMM_BOARD_NUM,COMM_CONTENT,COMM_TITLE,COMM_CTGR_NUM,COMM_UPLOAD_DATE,MEMBER_NUM)
+
+values(seq_board.nextval,'오늘 경희대 앞에 자전거를 잠깐 세워놨는데 누가 가져갔네요 저한테 정말 소중한 자전거 입니다 혹시 찾아 주시는 분 있으면 사례 해드릴게요 ㅜㅜ 
+로드 바이크고 색상은 빨강색입니다.!!',
+'오늘 오전 9시쯤 자전거를 잃어 버렸습니다. ',5,to_date('23-01-30','yy-mm-dd'),4);
 
 
 
 
+insert into comm_board(COMM_BOARD_NUM,COMM_CONTENT,COMM_TITLE,COMM_CTGR_NUM,COMM_UPLOAD_DATE,MEMBER_NUM)
+
+values(seq_board.nextval,'오늘 홈플러스 1층 이디야 앞 복도에서 우리은행 체크카드를 주웠습니다. 그냥 경찰에 가져다 줄까 하다가 여기에다 글 올립니다!! 카드 주인은 김x진 98년1월 30일 생이라고 적혀있습니다.!',
+' 체크카드를 주웠습니다. ',5,to_date('24-02-27','yy-mm-dd'),6);
+
+
+
+
+
+
+insert into comm_board(COMM_BOARD_NUM,COMM_CONTENT,COMM_TITLE,COMM_CTGR_NUM,COMM_UPLOAD_DATE,MEMBER_NUM)
+
+values(seq_board.nextval,'어제 밤 수원대 근처 호수에서 50대 여자시신이 발견됐다고 하네요 ㅜㅜ 다들 조심하세요',
+' 수원대 여자 시신 ',6,to_date('24-03-06','yy-mm-dd'),3);
+
+
+
+
+
+insert into comm_board(COMM_BOARD_NUM,COMM_CONTENT,COMM_TITLE,COMM_CTGR_NUM,COMM_UPLOAD_DATE,MEMBER_NUM)
+
+values(seq_board.nextval,'요즘 밤만 되면 전깃 줄에 까마귀 떼들이 앉아서 난리네요 ㅜㅜ 저번에 새똥 맞을 뻔 했는데 다들 전깃줄 밑으로는 지나다니시지 않는게 좋을거 같아요 !!',
+' 까마귀 떼 ',6,to_date('23-08-27','yy-mm-dd'),4);
+
+
+
+
+
+insert into comm_board(COMM_BOARD_NUM,COMM_CONTENT,COMM_TITLE,COMM_CTGR_NUM,COMM_UPLOAD_DATE,MEMBER_NUM)
+
+values(seq_board.nextval,'오늘 영동초등학교 앞에서 우회전 하는 차량에 초등학생 아이가 치여 크게 다쳤다고 하네요 차량들도 조심히 다녀야 겠지만 집안에서 각자 아이들에게 교통 교육을 확실히 시킬 필요가 있을거 같네요 ㅜㅜ 걱정이 많습니다 ㅜㅜㅜㅜ',
+' 영동초 앞 교통사고 ',6,to_date('23-2-27','yy-mm-dd'),2);
+
+
+
+
+
+
+insert into comm_board(COMM_BOARD_NUM,COMM_CONTENT,COMM_TITLE,COMM_CTGR_NUM,COMM_UPLOAD_DATE,MEMBER_NUM)
+
+values(seq_board.nextval,'오늘 큰 사거리에 있는 5백년 된 나무가 번개를 맡고 부러졌네요 ㅜㅜ 뭔가 마을을 지켜주는 수호신 같은 존재였는데 부러지니까 괜히 마음이 안 좋습니다 ㅜㅜ',
+'500년 된 나무 ... ',6,to_date('22-08-16','yy-mm-dd'),8);
+
+
+
+--------cmt_board_like---------------------------------------------------------------------------------------------------------------------------
+
+insert into cmt_board_lke values(1,1,1)
+
+
+
+CMT_BOARD_LIKE
+CMT_LIKE_NUM(PK)	N/A	NUMBER
+MEMBER_NUM(FK)	N/A	NUMBER
+COMM_BOARD_NUM(FK)	N/A	NUMBER
 
 
 
